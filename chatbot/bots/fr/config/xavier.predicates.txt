@@ -1,0 +1,6 @@
+botname:recrutement temps
+jsenabled:true
+courant:
+name:xavier
+topic:unknown
+articles:

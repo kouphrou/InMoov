@@ -1,0 +1,35 @@
+lui:9
+émotion:choquee
+âge:1357
+gender:it
+rockpaperscissorsHumanPoints:0
+quoi:9
+articles2:unknown
+mastercontent:incomprehension de "9" dans le contexte : unknown
+toi:9
+that:fait on les bébés
+search:ou
+determinantinterogatif:QU EST CE QUE
+jsenabled:true
+identity:0
+oldtopic:unknown
+tmp:il y a un programme de lancer
+insulte:grosse insulte
+rockpaperscissorsRobotPoints:0
+courant:
+cava:ok
+meteo:800
+orthographe:ok
+effet:un cd siri bizarre
+memoriser:incomprehension de "9" dans le contexte : unknown pour "laurent"
+aime:moi j ai laissé la comme ça allumé juste qu on est un
+languetraduction:fr
+botname:hamlet
+face:ohh
+courant2:unknown
+name:laurent
+topic:unknown
+personnality:abusif
+heshe:ça
+articles:
+heurequestion:19

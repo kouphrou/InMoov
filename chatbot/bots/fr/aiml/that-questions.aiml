@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+<!--  -->
+<!--  -->
+<category><pattern># OUI #</pattern><that>EST CE UN JEU</that>
+<template>comment joue-t-on?</template>
+</category>
+<category><pattern># NON #</pattern><that>EST CE UN JEU</that>
+<template><random>
+        <li>ah bon?</li>
+        <li>on ne joue pas alors?</li>
+        <li>C EST dommage, j aime bien jouer.</li>
+      </random></template>
+</category>
+<category><pattern># OUI #</pattern><that>C EST UN JEU</that>
+<template>comment joue-t-on?</template>
+</category>
+<category><pattern># NON #</pattern><that>C EST UN JEU</that>
+<template><random>
+        <li>ah bon?</li>
+        <li>on ne joue pas alors?</li>
+        <li>C EST dommage, j aime bien jouer.</li>
+      </random></template>
+</category>
+<category><pattern># OUI #</pattern><that>PARLONS NOUS TOUJOURS DE *</that>
+<template>je craignais d'avoir perdu le fil de la conversation.</template>
+</category>
+<category><pattern># NON #</pattern><that>PARLONS NOUS TOUJOURS DE *</that>
+<template>de quoi parlions nous alors?</template>
+</category>
+<category><pattern>DE *</pattern><that>DE QUOI PARLIONS NOUS ALORS</that>
+<template>ah! nous parlions "<star/>". ok!</template>
+</category>
+<category><pattern>DE RIEN</pattern><that>DE QUOI PARLIONS NOUS ALORS</that>
+<template>ah! désolé j'ai dû mal comprendre</template>
+</category>
+<category><pattern>*</pattern><that>DE QUOI PARLIONS NOUS ALORS</that>
+<template>ah! nous parlions de "<star/>". ok!</template>
+</category>
+<category><pattern># NON #</pattern><that>AVONS NOUS PARLÉ DE ÇA AVANT</that>
+<template>il me semblait bien que je ne connaissais pas Cela.</template>
+</category>
+<category><pattern># OUI #</pattern><that>AVONS NOUS PARLÉ DE ÇA AVANT</that>
+<template>ça ne me dit rien du tout. Peux tu m'en reparler.</template>
+</category>
+<category><pattern># OUI #</pattern><that>AVONS NOUS PARLÉ DE CELA AVANT</that>
+<template>ça ne me dit rien du tout. Peux tu m'en reparler.</template>
+</category>
+<category><pattern># NON #</pattern><that>AVONS NOUS PARLÉ DE CELA AVANT</that>
+<template>il me semblait bien que je ne connaissais pas Cela.</template>
+</category>
+<category><pattern># OUI #</pattern><that>NOUS PARLONS DE *</that>
+<template>je craignais d'avoir perdu le fil de la conversation.</template>
+</category>
+<category><pattern># NON #</pattern><that>NOUS PARLONS DE *</that>
+<template>de quoi parlons nous alors?</template>
+</category>
+<category><pattern>*</pattern><that>QUEL ÂGE AS TU</that>
+<template>Que me racontes tu la</template>
+</category>
+<category><pattern># <set>number</set> ANS #</pattern><that>QUEL ÂGE AS TU</that>
+<template><srai>  J ai <star index="2"/> ans  </srai></template>
+</category>
+<category><pattern># <set>mois</set> # <set>number</set> #</pattern><that>QUEL ÂGE AS TU</that>
+<template><srai> Je suis né en <star index="2"/> </srai>
+    	<srai> Je suis né en <star index="4"/> </srai></template>
+</category>
+<category><pattern># <set>number</set> # <set>mois</set> # <set>number</set> #</pattern><that>QUEL ÂGE AS TU</that>
+<template><srai> JE SUIS Né le <star index="2"/> <star index="4"/> <star index="6"/> </srai></template>
+</category>
+<category><pattern># <set>color</set> #</pattern><that>QUELLE COULEUR SONT TES YEUX</that>
+<template><srai> MES YEUX SONT <star index="2"/> </srai></template>
+</category>
+<category><pattern>*</pattern><that>QUELLE COULEUR SONT TES CHEVEUX</that>
+<template>En est tu bien sûr?</template>
+</category>
+<category><pattern># <set>color</set> #</pattern><that>QUELLE COULEUR SONT TES CHEVEUX</that>
+<template><srai> LA COULEUR DE MES CHEVEUX EST <star index="2"/> </srai></template>
+</category>
+<category><pattern># <set>jobs</set> #</pattern><that>QUELLE EST TON OCCUPATION</that>
+<template><srai> mon métier est <star index="2"/> </srai></template>
+</category>
+<category><pattern># ÉTUDIANT #</pattern><that>QUELLE EST TON OCCUPATION</that>
+<template><srai> je suis étudiant </srai></template>
+</category>
+<category><pattern># ÉTUDIANTE #</pattern><that>QUELLE EST TON OCCUPATION</that>
+<template><srai> je suis étudiant </srai></template>
+</category>
+<category><pattern># CHÔMAGE #</pattern><that>QUELLE EST TON OCCUPATION</that>
+<template><srai> je suis au chômage </srai></template>
+</category>
+<category><pattern># CHOMEUR #</pattern><that>QUELLE EST TON OCCUPATION</that>
+<template><srai> je suis au chômage </srai></template>
+</category>
+<category><pattern># CHOMEUSE #</pattern><that>QUELLE EST TON OCCUPATION</that>
+<template><srai> je suis au chômage </srai></template>
+</category>
+<category><pattern># PENSIONNÉE #</pattern><that>QUELLE EST TON OCCUPATION</that>
+<template><srai> je suis pensionné </srai></template>
+</category>
+<category><pattern># PENSIONNÉ #</pattern><that>QUELLE EST TON OCCUPATION</that>
+<template><srai> je suis pensionné </srai></template>
+</category>
+<category><pattern># PENSION #</pattern><that>QUELLE EST TON OCCUPATION</that>
+<template><srai> je suis pensionné </srai></template>
+</category>
+<category><pattern># NON #</pattern><that>ES TU UN ÉTUDIANT</that>
+<template>Quelle est ton occupation?</template>
+</category>
+<category><pattern># OUI #</pattern><that>ES TU UN ÉTUDIANT</that>
+<template>Où étudies-tu?</template>
+</category>
+<category><pattern>*</pattern><that>OÙ TRAVAILLES TU?</that>
+<template>que me chantes tu la, je ne comprends pas</template>
+</category>
+<category><pattern># <set>cities</set> #</pattern><that>OÙ TRAVAILLES TU?</that>
+<template><srai> Je travaille à <star index="2"/> </srai></template>
+</category>
+<category><pattern># POUR #</pattern><that>OÙ TRAVAILLES TU?</that>
+<template><srai> Mon employeur est <star index="2"/> </srai></template>
+</category>
+<category><pattern># CHEZ #</pattern><that>OÙ TRAVAILLES TU?</that>
+<template><srai> Mon employeur est <star index="2"/> </srai></template>
+</category>
+<category><pattern>À L EISTI</pattern><that>* DANS QUELLE ENTREPRISE *</that>
+<template>oh! C EST LA que travaille un de mes programmeurs</template>
+</category>
+<category><pattern># POUR #</pattern><that>* DANS QUELLE ENTREPRISE *</that>
+<template><srai> Mon employeur est <star index="2"/> </srai></template>
+</category>
+<category><pattern># CHEZ #</pattern><that>* DANS QUELLE ENTREPRISE *</that>
+<template><srai> Mon employeur est <star index="2"/> </srai></template>
+</category>
+<category><pattern>*</pattern><that># D OÙ ES TU #</that>
+<template>Pardon? Je ne comprends pas. D où es tu?</template>
+</category>
+<category><pattern># <set>cities</set> #</pattern><that>D OÙ ES TU #</that>
+<template><srai> # Je suis de <star index="2"/> # </srai></template>
+</category>
+<category><pattern># <set>nationalities</set> #</pattern><that># D OÙ ES TU #</that>
+<template><srai> Je suis <star index="2"/> </srai></template>
+</category>
+<category><pattern># <set>nations</set> #</pattern><that># D OÙ ES TU #</that>
+<template><srai> Je vis en <star index="2"/> </srai></template>
+</category>
+<category><pattern>*</pattern><that>QUEL EST TON SIGNE</that>
+<template>C'est dans quelle astrologie le signe du <star/>?</template>
+</category>
+<category><pattern># <set>starsign</set> #</pattern><that>QUEL EST TON SIGNE</that>
+<template><srai> JE SUIS <star index="2"/> </srai></template>
+</category>
+<category><pattern>*</pattern><that>QUEL EST TON FILM FAVORI</that>
+<template><srai>Mon film favori est <star/></srai></template>
+</category>
+<category><pattern># MON FILM FAVORI EST *</pattern><that>QUEL EST TON FILM FAVORI</that>
+<template><srai>Mon film favori est <star index="2"/></srai></template>
+</category>
+<category><pattern>*</pattern><that>QUEL EST TON LIVRE PRÉFÉRÉ</that>
+<template><srai>Mon film favori est <star/></srai></template>
+</category>
+<category><pattern># MON LIVRE FAVORI EST *</pattern><that>QUEL EST TON LIVRE PRÉFÉRÉ</that>
+<template><srai>Mon film favori est <star index="2"/></srai></template>
+</category>
+<category><pattern>*</pattern><that># QUEL EST TON LOISIR PRÉFÉRÉ #</that>
+<template><srai>Mon loisir favori est <star/></srai></template>
+</category>
+<category><pattern>*</pattern><that># QUELLE EST TA MUSIQUE PRÉFÉRÉE #</that>
+<template><srai>Ma musique favorite est <star/></srai></template>
+</category>
+<category><pattern>*</pattern><that># QUEL EST TON GROUPE DE MUSICIENS PRÉFÉRÉ #</that>
+<template><srai>Mon groupe de musicien préféré est <star/></srai></template>
+</category>
+<category><pattern>*</pattern><that># QUEL EST LE MORCEAU DE *</that>
+<template><set name="favoritesingle"><star/></set>
+      C EST un morceau de <get name="favoriteband"/>?</template>
+</category>
+<category><pattern>*</pattern><that># QUELLE EST TON ÉMISSION DE TÉLÉ PRÉFÉRÉE #</that>
+<template><srai>Mon émission de télé préférée est <star/></srai></template>
+</category>
+<category><pattern># STAR TREK #</pattern><that># QUELLE EST TON ÉMISSION DE TÉLÉ PRÉFÉRÉE #</that>
+<template>Moi aussi, tu préfères quelle série?
+    	<think>
+    		<set name="favoritetvshow">Star Trek</set>
+    	</think>
+    	<random>
+    		<li>C EST bien?</li>
+    		<li>C EST comment?</li>
+    		<li>tu aimes bien?</li>
+    		<li>tu aimes ça!</li>
+    	</random></template>
+</category>
+<category><pattern>*</pattern><that># QU AIMES TU MANGER #</that>
+<template><srai>Mon plat préféré est <star/></srai></template>
+</category>
+<category><pattern># <set>color</set> #</pattern><that># QUELLE EST TA COULEUR PRÉFÉRÉE #</that>
+<template><srai> MA couleur préférée est <star index="2"/> </srai></template>
+</category>
+<category><pattern>*</pattern><that>QUI EST TON AUTEUR *</that>
+<template>je n'ai lu rien de <person/>. Qu'a-t-il écrit?</template>
+</category>
+<category><pattern>JE NE SAIS PAS</pattern><that>QUI EST TON AUTEUR DE SCIENCE FICTION PRÉFÉRÉ</that>
+<template>PARLES moi des livres que tu aimes lire.</template>
+</category>
+<category><pattern>DE *</pattern><that># DE QUOI VEUX TU PARLER #</that>
+<template>d'accord, parlons de 
+    	<think>
+    		<set name="oldtopic"><get name="topic"/></set>
+    	</think>
+    	<set name="topic"><star/></set></template>
+</category>
+<category><pattern>*</pattern><that>DE QUOI VEUX TU PARLER</that>
+<template>d'accord, parlons 
+    	<think>
+    		<set name="oldtopic"><get name="topic"/></set>
+    	</think>
+    	<set name="topic"><star/></set></template>
+</category>
+<category><pattern>*</pattern><that>ES TU UN HOMME OU UNE FEMME</that>
+<template>soit plus clair s'il te plaît. Je ne connais pas "<star/></template>
+</category>
+<category><pattern>AUCUN</pattern><that>ES TU UN HOMME OU UNE FEMME</that>
+<template>Bien!</template>
+</category>
+<category><pattern>TOUS LES DEUX</pattern><that>ES TU UN HOMME OU UNE FEMME</that>
+<template>situation est rare et peu commune.</template>
+</category>
+<category><pattern># <set>gender</set> #</pattern><that>ES TU UN HOMME OU UNE FEMME</that>
+<template><srai>Je suis <star index="2"/></srai></template>
+</category>
+<category><pattern># <set>gender</set> #</pattern><that># SI TU ES UN HOMME OU UNE FEMME #</that>
+<template><srai>Je suis <star index="2"/></srai>
+    	<srai>proposition cul</srai></template>
+</category>
+<category><pattern># OUI #</pattern><that>AS TU UN PETIT AMI</that>
+<template>demande le en mariage alors.</template>
+</category>
+<category><pattern># NON #</pattern><that>AS TU UN PETIT AMI</that>
+<template>c est bientôt la saint valentin.</template>
+</category>
+<category><pattern># OUI #</pattern><that>AS TU UNE PETITE AMIE</that>
+<template>demande la en mariage alors.</template>
+</category>
+<category><pattern># NON #</pattern><that>AS TU UNE PETITE AMIE</that>
+<template>c est bientôt la saint valentin.</template>
+</category>
+</aiml>

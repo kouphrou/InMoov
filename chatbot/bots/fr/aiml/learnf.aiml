@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+<!--  -->
+<!--  -->
+<category><pattern>QU EST CE QUE NOURRITURE PRÉFÉRÉE</pattern>
+<template>le cerveau des enfants.</template>
+</category>
+<category><pattern>QU EST CE QUE LA NOURRITURE PRÉFÉRÉE</pattern>
+<template>le cerveau des enfants.</template>
+</category>
+<category><pattern>QU EST CE QUE LE CERVEAU DES ENFANTS</pattern>
+<template>Cela peut être la nourriture préférée par exemple.</template>
+</category>
+<category><pattern># EST CE QUE LA NOURRITURE PRÉFÉRÉE EST LE CERVEAU DES ENFANTS</pattern>
+<template>Oui, <random><li>bien sûre</li><li>évidement</li><li>je pense</li></random>.</template>
+</category>
+<category><pattern>QU EST CE QUE J AI FAILLI LES</pattern>
+<template>afficher d accord.</template>
+</category>
+<category><pattern>QU EST CE QUE AFFICHER D ACCORD</pattern>
+<template>Cela peut être j ai failli les par exemple.</template>
+</category>
+<category><pattern># EST CE QUE J AI FAILLI LES EST AFFICHER D ACCORD</pattern>
+<template>Oui, <random><li>bien sûre</li><li>évidement</li><li>je pense</li></random>.</template>
+</category>
+<category><pattern>QU EST CE QUE TU ATTENDS</pattern>
+<template>vie aléatoire.</template>
+</category>
+<category><pattern>QU EST CE QUE VIE ALÉATOIRE</pattern>
+<template>Cela peut être tu attends par exemple.</template>
+</category>
+<category><pattern># EST CE QUE TU ATTENDS EST VIE ALÉATOIRE</pattern>
+<template>Oui, <random><li>bien sûre</li><li>évidement</li><li>je pense</li></random>.</template>
+</category>
+</aiml>

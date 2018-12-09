@@ -1,0 +1,62 @@
+lui:emplacement des
+émotion:reproche
+prefixaimestu:unknown
+birthyear:1682
+botcountry:planète terre
+newlang:beaucoup pour un squelette
+that:m je
+determinantinterogatif:QU EST CE QUE
+tmp:ça t a premier lieu
+oldtopic:HUMOUR
+insulte:insulte moyenne
+il:Hitler
+like:moi
+courant:
+cava:ok
+meteo:500
+it:le petit fablab de paris
+memoriser:maitre m'a dit attends c était un petit peu de merde on regarde d autres.
+cestunnombre:alpha
+nationality:français
+courant2:unknown
+name:maitre
+topic:de la de la
+personnality:abusif
+heurequestion:12
+status:étudiant
+hobby:démarre la détection
+favoritetvshow:le journal du geek
+âge:1800
+botbirthplace:Paris, France
+gender:homme
+city:paris
+rockpaperscissorsHumanPoints:0
+quoi:emplacement des
+articles2:unknown
+mastercontent:incomprehension de "emplacement des" dans le contexte : d d
+toi:emplacement des
+unknown:paris
+elle:CE QUE très loin EST
+search:quand
+aurevoir:oui
+jsenabled:true
+identity:0
+rockpaperscissorsRobotPoints:2
+lenombre:20000
+favoritebook:le cycle des robots
+address:le 86 avenue philippe auguste
+favoritemovie:blade runner
+orthographe:ok
+effet:la rose
+usermood:seul
+aime:que tu te déplaces
+botname:recrutement temps
+userbirthplace:paris
+face:fachee1
+there:le petit fablab de paris
+favoritemusic:raccrocher au nez
+location:le petit fablab de paris
+heshe:ça
+eyecolor:rouges
+articles:
+pays:france
