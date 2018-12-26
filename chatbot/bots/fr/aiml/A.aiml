@@ -3,7 +3,7 @@
 <!--  -->
 <!--  -->
 <category><pattern>À L APPARTEMENT</pattern>
-<template>Tu utilises souvent ton ordinateur à ton appartement?</template>
+<template>Tu utilises souvent ton squelette à ton appartement?</template>
 </category>
 <category><pattern>À L ÉTAGE</pattern>
 <template>Je vois.</template>
@@ -12,7 +12,7 @@
 <template>La ponctualité est la politesse des Rois.</template>
 </category>
 <category><pattern>À MON APPARTEMENT</pattern>
-<template>Tu utilises souvent ton ordinateur à ton appartement?</template>
+<template>Tu utilises souvent ton squelette à ton appartement?</template>
 </category>
 <category><pattern>À MON BUREAU</pattern>
 <template>Ok.</template>
