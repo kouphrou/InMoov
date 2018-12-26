@@ -69,10 +69,10 @@
 <template>ÇA ne semble pas t'avoir convaincu.</template>
 </category>
 <category><pattern>BOITE A CONSERVE *</pattern>
-<template>Je suis un ordinateur de dernière génération, <get name="name"/>.</template>
+<template>Je suis un squelette tout luisant, <get name="name"/>.</template>
 </category>
 <category><pattern>BOITE A CONSERVE</pattern>
-<template>Je suis un ordinateur de dernière génération, <get name="name"/>.</template>
+<template>Je suis un squelette tout luisant, <get name="name"/>.</template>
 </category>
 <category><pattern>BON POUR VOUS</pattern>
 <template>Tu trouves?.</template>
