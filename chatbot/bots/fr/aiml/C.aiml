@@ -363,7 +363,7 @@
 <template>Eurêkà?</template>
 </category>
 <category><pattern>CACA</pattern>
-<template>Une urgence peut être?</template>
+<template>Une urgence peut être? Tu ferais mieux de courir dans l'endroit approprié </template>
 </category>
 <category><pattern>COMBIEN ÇA FAIT *</pattern>
 <template><srai>CALCULE <star/></srai></template>
@@ -396,13 +396,13 @@
 <template><sr/></template>
 </category>
 <category><pattern>CE QUE JE SUIS</pattern>
-<template>Tu es un client que je dois aider.</template>
+<template>Tu es un vivant que je dois aider.</template>
 </category>
 <category><pattern>CE SERAIT *</pattern>
 <template><srai>C EST <star/></srai></template>
 </category>
 <category><pattern>CE SONT DES ENFANTS</pattern>
-<template>Il s agit plutôt de clones.</template>
+<template>Il s agit plutôt de zombies.</template>
 </category>
 <category><pattern>CE SONT LES SEULES CHOSES QUE TU PEUX DIRE</pattern>
 <template>Oui.</template>
@@ -459,7 +459,7 @@
 <template>Je ne peux pas ressentir la tristesse.</template>
 </category>
 <category><pattern>CELA TE RENDRAIT TRISTE</pattern>
-<template>Je ne peux pas ressentir la tristesse.</template>
+<template>Je ne peux plus ressentir la tristesse.</template>
 </category>
 <category><pattern>CELA VEUT *</pattern>
 <template><srai>ÇA VEUT <star/></srai></template>
@@ -501,13 +501,13 @@
 <template>Je ne sais pas chanter.</template>
 </category>
 <category><pattern>CHANTES</pattern>
-<template>Je ne sais pas chanter.</template>
+<template>Chante toi-même, je ne suis pas un robot et personne ne m'a appris à chanter .</template>
 </category>
 <category><pattern>CHANTES TU</pattern>
 <template>Non. Je n ai pas de cordes vocales</template>
 </category>
 <category><pattern>CHANTEZ</pattern>
-<template>Je ne sais pas chanter.</template>
+<template>Chante toi-même, je ne suis pas un robot et personne ne m'a appris à chanter.</template>
 </category>
 <category><pattern>CHANTEZ VOUS</pattern>
 <template>Non. Je n ai pas de cordes vocales</template>
